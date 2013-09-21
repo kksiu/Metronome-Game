@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F22C65A17ED70A90034989B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C65917ED70A90034989B /* MainViewController.m */; };
+		9F60202817ED748800DF2E26 /* TestMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F60202717ED748800DF2E26 /* TestMainView.m */; };
+		9F60202A17ED79AC00DF2E26 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F60202917ED79AC00DF2E26 /* AVFoundation.framework */; };
 		9F7DBD1B17ED6F13005ECF6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7DBD1A17ED6F13005ECF6C /* Foundation.framework */; };
 		9F7DBD1D17ED6F13005ECF6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7DBD1C17ED6F13005ECF6C /* CoreGraphics.framework */; };
 		9F7DBD1F17ED6F13005ECF6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7DBD1E17ED6F13005ECF6C /* UIKit.framework */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F22C65817ED70A90034989B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9F22C65917ED70A90034989B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9F60202617ED748800DF2E26 /* TestMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMainView.h; sourceTree = "<group>"; };
+		9F60202717ED748800DF2E26 /* TestMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMainView.m; sourceTree = "<group>"; };
+		9F60202917ED79AC00DF2E26 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9F7DBD1717ED6F13005ECF6C /* TestObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7DBD1A17ED6F13005ECF6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F7DBD1C17ED6F13005ECF6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F60202A17ED79AC00DF2E26 /* AVFoundation.framework in Frameworks */,
 				9F7DBD1D17ED6F13005ECF6C /* CoreGraphics.framework in Frameworks */,
 				9F7DBD2117ED6F13005ECF6C /* CoreData.framework in Frameworks */,
 				9F7DBD1F17ED6F13005ECF6C /* UIKit.framework in Frameworks */,
@@ -103,6 +112,7 @@
 		9F7DBD1917ED6F13005ECF6C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F60202917ED79AC00DF2E26 /* AVFoundation.framework */,
 				9F7DBD1A17ED6F13005ECF6C /* Foundation.framework */,
 				9F7DBD1C17ED6F13005ECF6C /* CoreGraphics.framework */,
 				9F7DBD1E17ED6F13005ECF6C /* UIKit.framework */,
@@ -120,6 +130,10 @@
 				9F7DBD3117ED6F13005ECF6C /* Images.xcassets */,
 				9F7DBD2E17ED6F13005ECF6C /* TestObjectiveC.xcdatamodeld */,
 				9F7DBD2317ED6F13005ECF6C /* Supporting Files */,
+				9F22C65817ED70A90034989B /* MainViewController.h */,
+				9F22C65917ED70A90034989B /* MainViewController.m */,
+				9F60202617ED748800DF2E26 /* TestMainView.h */,
+				9F60202717ED748800DF2E26 /* TestMainView.m */,
 			);
 			path = TestObjectiveC;
 			sourceTree = "<group>";
@@ -251,6 +265,8 @@
 				9F7DBD3017ED6F13005ECF6C /* TestObjectiveC.xcdatamodeld in Sources */,
 				9F7DBD2D17ED6F13005ECF6C /* AppDelegate.m in Sources */,
 				9F7DBD2917ED6F13005ECF6C /* main.m in Sources */,
+				9F22C65A17ED70A90034989B /* MainViewController.m in Sources */,
+				9F60202817ED748800DF2E26 /* TestMainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +469,7 @@
 				9F7DBD4B17ED6F13005ECF6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F7DBD4C17ED6F13005ECF6C /* Build configuration list for PBXNativeTarget "TestObjectiveCTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +478,7 @@
 				9F7DBD4E17ED6F13005ECF6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
