@@ -20,4 +20,19 @@
 //this will be pressed when user wants to play their note
 @property UIButton *pressButton;
 
+//switch to either use as game or metronome
+@property UISwitch *metronomeSwitch;
+
+//label to say whether or not switch is on or off
+@property UILabel *switchLabel;
+
+//button to say play again when needed
+@property UIButton *playAgain;
+
+//label to show next to button
+@property UILabel *countLabel;
+
+//show results of game
+@property UILabel *results;
+
 @end

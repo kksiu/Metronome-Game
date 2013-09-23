@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F22C65A17ED70A90034989B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22C65917ED70A90034989B /* MainViewController.m */; };
+		9F34BEE017EE36FF00DB909A /* Hi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F34BEDF17EE36FF00DB909A /* Hi.mp3 */; };
 		9F60202817ED748800DF2E26 /* TestMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F60202717ED748800DF2E26 /* TestMainView.m */; };
 		9F60202A17ED79AC00DF2E26 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F60202917ED79AC00DF2E26 /* AVFoundation.framework */; };
 		9F7DBD1B17ED6F13005ECF6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7DBD1A17ED6F13005ECF6C /* Foundation.framework */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		9F22C65817ED70A90034989B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		9F22C65917ED70A90034989B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9F34BEDF17EE36FF00DB909A /* Hi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Hi.mp3; path = TestObjectiveC/Resources/Hi.mp3; sourceTree = "<group>"; };
 		9F60202617ED748800DF2E26 /* TestMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMainView.h; sourceTree = "<group>"; };
 		9F60202717ED748800DF2E26 /* TestMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMainView.m; sourceTree = "<group>"; };
 		9F60202917ED79AC00DF2E26 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -90,9 +92,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F34BEDE17EE36F600DB909A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F34BEDF17EE36FF00DB909A /* Hi.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		9F7DBD0E17ED6F13005ECF6C = {
 			isa = PBXGroup;
 			children = (
+				9F34BEDE17EE36F600DB909A /* Resources */,
 				9F7DBD2217ED6F13005ECF6C /* TestObjectiveC */,
 				9F7DBD3F17ED6F13005ECF6C /* TestObjectiveCTests */,
 				9F7DBD1917ED6F13005ECF6C /* Frameworks */,
@@ -243,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F7DBD2717ED6F13005ECF6C /* InfoPlist.strings in Resources */,
+				9F34BEE017EE36FF00DB909A /* Hi.mp3 in Resources */,
 				9F7DBD3217ED6F13005ECF6C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
